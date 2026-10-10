@@ -26,11 +26,5 @@ Como a base oficial do CNEFE possui milhões de linhas e ultrapassa o limite de 
    git clone [https://github.com/GiovannaFarani/Desafio_LACEDA_Giovanna.git](https://github.com/GiovannaFarani/Desafio_LACEDA_Giovanna.git)
 2. Crie uma pasta chamada dados na raiz do projeto (caso ela não exista).
 
-3. Acesse o portal do IBGE e descarregue a base do CNEFE referente ao estado da Bahia. No link a seguir: https://fiocruzbr-my.sharepoint.com/:u:/g/personal/robespierre_pita_fiocruz_br/IQBffC24BhqdR6YxIj-uwH3cAZQO3HzIQLBZocKpMmR7PkE?e=RAynjl
-4. Coloque o ficheiro CSV maior do CNEFE dentro da pasta dados/. COM O NOME: 29_BA.csv
-
-5. Abra o notebook desafio_Giovanna.ipynb. A primeira célula contém o comando !pip install pyspark thefuzz pandas para garantir que o seu ambiente tem todas as dependências necessárias.
-
-6. Execute o notebook de cima a baixo ("Run All").
-
-O resultado final será exportado como um ficheiro .csv contendo a base original acrescida da coluna SETOR_CENSITARIO_FINAL.
+3. As bases já estão carregadas automaticamente, a maior pelo drive e a menor pelo Github.
+4. Apenas é necessário roda o notebook.
